@@ -157,4 +157,5 @@ func main() {
 	for v := range pipeline {
 		fmt.Println("Получено", v)
 	}
+	fmt.Println("Something")
 }
